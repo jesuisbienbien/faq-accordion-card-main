@@ -52,9 +52,21 @@ Users should be able to:
 <h1>Some HTML code I'm proud of</h1>
 ```
 
+**_smooth dropdown transition_**
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.answer {
+  color: var(--dark-grayish-blue);
+  font-size: 0.7rem;
+  margin-right: 3rem;
+  overflow-y: hidden;
+  max-height: 0;
+  transition: all 0.25s;
+}
+.answer.open {
+  max-height: 120px;
+  transition: all 0.4s;
+  margin-bottom: 1rem;
 }
 ```
 
@@ -65,6 +77,8 @@ const proudOfThisFunc = () => {
 ```
 
 ### Useful resources
+
+- Resource #1 [StackOverFlow](https://stackoverflow.com/questions/65464157/how-to-make-smooth-opening-dropdown-with-basic-javascript-code) - How to make a smooth faq dropdown using CSS
 
 ## Author
 
