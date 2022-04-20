@@ -25,6 +25,8 @@ function open(num) {
 }
 
 /* listen to all the questions for click */
+//when open, the box moves left
+
 for(let i =0; i<questionContainers.length; i++){
     questionContainers[i].addEventListener("click", (e) => {
         if(prevOpen === i) {
@@ -41,4 +43,3 @@ for(let i =0; i<questionContainers.length; i++){
     })
 }
 
-//when open, the box moves left

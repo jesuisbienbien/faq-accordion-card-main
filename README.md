@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![ss1](images/screenshot1.png)
+![ss2](images/screenshot2.png)
 
 ### Links
 
@@ -48,10 +49,6 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
 **_smooth dropdown transition_**
 
 ```css
@@ -70,17 +67,15 @@ Users should be able to:
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
 ### Useful resources
 
-- Resource #1 [StackOverFlow](https://stackoverflow.com/questions/65464157/how-to-make-smooth-opening-dropdown-with-basic-javascript-code) - How to make a smooth faq dropdown using CSS
+- [StackOverFlow](https://stackoverflow.com/questions/65464157/how-to-make-smooth-opening-dropdown-with-basic-javascript-code) - How to make a smooth faq dropdown using CSS.
+- [CSS Tricks](https://css-tricks.com/snippets/css/flip-an-image/) - How to flip an image using CSS.
 
 ## Author
+
+- Github - [Nguyen Nguyen](https://github.com/jesuisbienbien)
+- Frontend Mentor - [@jesuisbienbien](https://www.frontendmentor.io/profile/jesuisbienbien)
 
 ## Acknowledgments
 
